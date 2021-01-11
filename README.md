@@ -68,3 +68,5 @@ This application has two very distinct parts -- creating decks and cards and the
 "Flipping" a card (you don't have to animate a card flip, although if you do, that's very cool) will almost certainly require JavaScript.
 
 You could have a page load in between cards and reduce your amount of JavaScript. Depending on how you do this, it could also record success or failure, eliminating most of your JavaScript.
+
+_For either project, follow the instructions for the [Django Project Template](https://github.com/momentumlearn/django-project-template), making sure you start from an empty directory._ 
