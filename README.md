@@ -69,4 +69,36 @@ This application has two very distinct parts -- creating decks and cards and the
 
 You could have a page load in between cards and reduce your amount of JavaScript. Depending on how you do this, it could also record success or failure, eliminating most of your JavaScript.
 
+## Project 3: Music Collection 
+
+Create an application to keep track of all the music albums you own. You can choose what fields each album should have, but it should have at least these three:
+
+- title
+- artist
+- year released
+
+Your Django app should allow you to do the following:
+
+- See a list of all albums (this should be your homepage)
+- Create a new album
+- See a detail page for one existing album
+- Edit an existing album
+- Delete an existing album
+
+Your app should have at least minimal styling using a CSS library like Tachyons or Bootstrap.
+
+A good place to start is planning out your model and making sure you can make an Album object in the console. Make some simple wireframes to sketch out the different functions of the app on the list above, and the urls (and corresponding view functions) you will need to make each page show up. Start with the home page.
+
+### Spicy options 🌶️🌶️🌶️
+
+- Add an Artist model and create a foreign key on the Album model to associate the two.
+  - Show the Artist and their other albums on the album detail page, with links to those album detail pages.
+- Create an way to mark an album with a star rating.
+- Add an option to sort all albums on the list page by title, year, or artist.
+
+### How Much of this is JavaScript?
+
+This whole project will work fine without JS, but the star rating and the sort are good candidates to be 
+done with JS to eliminate page reload.
+
 _For either project, follow the instructions for the [Django Project Template](https://github.com/momentumlearn/django-project-template), making sure you start from an empty directory._ 
